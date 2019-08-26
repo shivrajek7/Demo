@@ -8,14 +8,20 @@ class Bank(ABC):
     def calculate_interest(self):
           pass
 
-class hdfc(Bank):
+class Hdfc(Bank):
 
     def calculate_interest(self,interest):
         self.cinterest = interest
         return interest * 0.07
 
 
-class sbi(Bank):
+class Sbi(Bank):
+
+    def calculate_interest(self,interest):
+        self.cinterest = interest
+        return interest * 0.07
+
+class Icici(Bank):
 
     def calculate_interest(self,interest):
         self.cinterest = interest
