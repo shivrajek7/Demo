@@ -33,6 +33,12 @@ class UBI(Bank):
         self.cinterest = interest
         return interest * 0.07        
 
+class Bcici(Bank):
+
+    def calculate_interest(self,interest):
+        self.cinterest = interest
+        return interest * 0.09
+    
 def main():
    c1 = hdfc()
    d = c1.calculate_interest()
