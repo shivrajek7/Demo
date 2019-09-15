@@ -27,7 +27,7 @@ class Icici(Bank):
         self.cinterest = interest
         return interest * 0.07
 
-class Idbi(Bank):
+class UBI(Bank):
 
     def calculate_interest(self,interest):
         self.cinterest = interest
