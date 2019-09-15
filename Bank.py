@@ -12,7 +12,7 @@ class Hdfc(Bank):
 
     def calculate_interest(self,interest):
         self.cinterest = interest
-        return interest * 0.07
+        return interest * 0.06
 
 
 class Sbi(Bank):
@@ -25,7 +25,13 @@ class Icici(Bank):
 
     def calculate_interest(self,interest):
         self.cinterest = interest
-        return interest * 0.07
+        return interest * 0.08
+
+class UBI(Bank):
+
+    def calculate_interest(self,interest):
+        self.cinterest = interest
+        return interest * 0.07        
 
 class Bcici(Bank):
 
